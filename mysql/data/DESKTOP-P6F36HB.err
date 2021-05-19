@@ -63,3 +63,6 @@ Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
 2021-05-19 08:27:09 1564 [Note] IPv6 is available.
 2021-05-19 08:27:09 1564 [Note]   - '::' resolves to '::';
 2021-05-19 08:27:09 1564 [Note] Server socket created on IP: '::'.
+2021-05-19 08:27:09 1564 [Note] Event Scheduler: Loaded 0 events
+2021-05-19 08:27:09 1564 [Note] C:\Users\nhanp\Desktop\NucampFolder\8-OtherProject\webserverfolder/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
