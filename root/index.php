@@ -20,6 +20,17 @@ include "db_connect.php";
   <input type="submit" value="Submit">
 </form> 
 
+<hr>
+<form action="/add_joke.php">
+  Please enter a new joke here:<br>
+  <input type="text" name="newjoke"><br>
+  
+  Please enter the answer to your joke here:<br>
+  <input type="text" name="newanswer"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
 <?php
 
 //include "search_keyword.php";
