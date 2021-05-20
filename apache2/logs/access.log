@@ -274,3 +274,9 @@
 ::1 - - [20/May/2021:09:56:59 -0700] "GET /add_joke.php?newjoke=Did+you+hear+about+the+kidnap+in+school%3F&newanswer=it%27s+ok.+He+woke+up HTTP/1.1" 200 766
 ::1 - - [20/May/2021:09:57:13 -0700] "GET /index.php HTTP/1.1" 200 523
 ::1 - - [20/May/2021:09:57:28 -0700] "GET /add_joke.php?newjoke=something+is+very+stragggggggggeeeeeeee%3F&newanswer=WhYYYYYY HTTP/1.1" 200 837
+::1 - - [20/May/2021:10:03:20 -0700] "GET /add_joke.php?newjoke=Did+you+hear+about+the+kidnap+in+school%3F&newanswer=its+ok.+He+woke+up HTTP/1.1" 200 939
+::1 - - [20/May/2021:10:04:49 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 918
+::1 - - [20/May/2021:10:05:04 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 97
+::1 - - [20/May/2021:10:07:40 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 176
+::1 - - [20/May/2021:10:08:04 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 257
+::1 - - [20/May/2021:10:11:20 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 991
