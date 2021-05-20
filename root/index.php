@@ -1,5 +1,15 @@
 <html>
 <head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -14,21 +24,78 @@ include "db_connect.php";
 
 ?>
 
-<form action="/search_keyword.php">
-  Please enter a key word to search for:<br>
-  <input type="text" name="keyword"><br>
-  <input type="submit" value="Submit">
-</form> 
 
-<hr>
-<form action="/add_joke.php">
-  Please enter a new joke here:<br>
-  <input type="text" name="newjoke"><br>
-  
-  Please enter the answer to your joke here:<br>
-  <input type="text" name="newanswer"><br>
-  <input type="submit" value="Submit">
-</form> 
+<form class="form-horizontal" action="/search_keyword.php">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Search for a joke</legend>
+
+<!-- Search input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="keyword">Search Input</label>
+  <div class="col-md-5">
+    <input id="keyword" name="keyword" type="search" placeholder="e.g. elephant" class="form-control input-md" required="">
+    <p class="help-block">Enter a word to search in the joke database</p>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">Search</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+<form class="form-horizontal" action="/add_joke.php">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Add a joke</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="newjoke">Enter the text of your new joke</label>  
+  <div class="col-md-6">
+  <input id="newjoke" name="newjoke" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block">Enter the first half of your joke</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="newanswer">The answer to your joke</label>  
+  <div class="col-md-6">
+  <input id="newanswer" name="newanswer" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block">Enter the answer, or the punchline, to your joke</span>  
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">Add a new joke</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
 
 
 <?php

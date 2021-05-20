@@ -280,3 +280,16 @@
 ::1 - - [20/May/2021:10:07:40 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 176
 ::1 - - [20/May/2021:10:08:04 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 257
 ::1 - - [20/May/2021:10:11:20 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 991
+::1 - - [20/May/2021:10:23:56 -0700] "GET /add_joke.php?newjoke=Why+doesn%27t+it+hurt%3F&newanswer=It%27s+a+soft+drink HTTP/1.1" 200 1062
+::1 - - [20/May/2021:10:23:59 -0700] "GET /index.php HTTP/1.1" 200 1297
+::1 - - [20/May/2021:10:26:06 -0700] "GET /index.php HTTP/1.1" 200 1695
+::1 - - [20/May/2021:10:26:19 -0700] "GET /search_keyword.php?keyword=help&submit= HTTP/1.1" 200 177
+::1 - - [20/May/2021:10:27:04 -0700] "GET /index.php HTTP/1.1" 200 1516
+::1 - - [20/May/2021:10:27:08 -0700] "GET /search_keyword.php?keyword=elephant&submit= HTTP/1.1" 200 155
+::1 - - [20/May/2021:10:27:15 -0700] "GET /search_keyword.php?keyword=help&submit= HTTP/1.1" 200 177
+::1 - - [20/May/2021:10:55:40 -0700] "GET /index.php HTTP/1.1" 200 2631
+::1 - - [20/May/2021:10:56:05 -0700] "GET /index.php HTTP/1.1" 200 2632
+::1 - - [20/May/2021:10:56:35 -0700] "GET /index.php HTTP/1.1" 200 2368
+::1 - - [20/May/2021:10:56:44 -0700] "GET /search_keyword.php?keyword=elephant&submit= HTTP/1.1" 200 155
+::1 - - [20/May/2021:10:57:06 -0700] "GET /add_joke.php?newjoke=Testing+questions%3F&newanswer=Of+course%2C+the+building+can%27t+jump&submit= HTTP/1.1" 200 1162
+::1 - - [20/May/2021:10:57:09 -0700] "GET /index.php HTTP/1.1" 200 2368
